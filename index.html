@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
@@ -21,9 +22,9 @@
           padding-right: 0px;
           position: relative;
           text-align: left;
-          color:goldenrod;
+          /* color:goldenrod;
           font-weight: bold;
-          font-size: x-large;
+          font-size: x-large; */
       }
       .bottom-left{
           position: absolute;
@@ -96,7 +97,7 @@
         <img class="img-responsive" src="assets/indexpage_head.png" alt="indexpage_head" style="width:100%;height:auto">
         <div class="bottom-left">
             <p style="font-size:large;font-family: Georgia, 'Times New Roman';color:cornsilk;">Welcome!</p>
-            <p style="font-size:xx-large;font-family: Georgia, 'Times New Roman';"> Sourav Chatterjee's Homepage</p>
+            <p style="font-size:xx-large;font-family: Georgia, 'Times New Roman';color:goldenrod;font-weight: bolder"> Sourav Chatterjee's Homepage</p>
         </div>
         <div class="top-left">
             <img class="img-responsive" src="assets/tifr-logo-new-blue-small.png" alt="TIFR logo" style="width:200px;">    
@@ -104,7 +105,6 @@
     </div>
     <div id="navbar">
         <a class="active" href="index.html">Home</a>
-        <a href="index.html">Home</a>
         <a href="index.html">Research</a>
         <a href="index.html">Publications</a>
         <a href="index.html">Presentations</a>
@@ -128,15 +128,36 @@
         <div class="col-md-9" style="padding-right:10px;padding-left:40px">
             <div class="well" style="background-color: ivory;padding:12px">
                 <p class="text-justify">
-                    I am currently a Reader at the TATA Institute of Fundamental Research (TIFR), Mumbai.
+                    I am currently a Reader at the TATA Institute of Fundamental Research 
+                    <a href="http://www.tifr.res.in">(TIFR)</a>, Mumbai in the department 
+                    of Astronomy and Astrophysics <a href="http://www.tifr.res.in/~daa/">(DAA)</a>.
                 </p>
                 <p class="text-justify">
-                    I have diverse research interests spanning from exoplanets to stars clusters to astrophysics 
-                    of gravitational waves. Most of my research interests come under the broad question: 'How 
-                    gravitational dynamical affects our universe.'
+                    My research spans a diverse range of topics including exoplanets, planet formation, 
+                    planetary structures, stellar dynamics, star clusters, astrophysics of gravitational 
+                    waves, and compact-object binaries. My most recent works have focused on how compact 
+                    multiple exoplanet systems form, how dynamical processes can leave potential observable 
+                    signatures on planetary structures and their atmospheric properties, dynamical evolution 
+                    of globular clusters, astrophysical origins of gravitational wave sources detectable 
+                    by LIGO and LISA, the retention fraction of black holes in today's globular clusters, 
+                    and how Gaia can potentially revolutionize our understanding of how black holes form 
+                    and their birth properties.
+                </p>
+                <p class="text-justify">    
+                    Most of my research interests come under the broad umbrella of the fundamental question: 
+                    'How gravitational dynamics affects our universe.' I combine numerical simulations, data 
+                    analysis, and statistical techniques to unveil several mysteries of our universe. My research 
+                    is broadly relevant for explaining/understanding the observations from to several 
+                    international (e.g., HST, Keck, Chandra, Gaia, LIGO, LISA, SKA) and national (e.g., GMRT, 
+                    Astrosat, and a myriad of optical telescopes) survey-class facilities. 
+                </p>
+                <p class="text-justify">
+                    When I am not trying to understand the fascinating mysteries of our universe, I like 
+                    playing music on my sitar, and playing tennis and cricket. I love traveling to new places, 
+                    learning new cultures, and I photography. 
                 </p>
             </div>
-            <div class="container-fluid" style="padding-left: 200px;padding-right:0px;background-color: palegreen">
+            <!-- <div class="container-fluid" style="padding-left: 200px;padding-right:0px;background-color: palegreen">
                 <p>
                     I am currently a Reader at the TATA Institute of Fundamental Research (TIFR), Mumbai.
                 </p>
@@ -148,31 +169,88 @@
             </div> 
             <p>
                 I am currently a Reader at the TATA Institute of Fundamental Research (TIFR), Mumbai.
-            </p>
+            </p> -->
         </div>
-        <div class="col-md-3" style="background-color: purple;padding-left:0px;padding-right:0px">
+        <!-- <div class="col-md-3" style="background-color: purple;padding-left:0px;padding-right:0px"> -->
+        <div class="col-md-3" style="padding-left:0px;padding-right:0px">
             <!-- <div class="container-fluid" style="background-color: ivory";>
                 <img class="img-responsive" src="assets/me.png" alt="My Photo" style="width:100%;height:auto">
             </div> -->
             <!-- <img class="img-responsive" src="assets/me.png" alt="My Photo" style="width:100%;height:auto;padding-left:0px;padding-right:10px;padding-top:10px;padding-bottom:4px"> -->
             <img class="img-responsive" src="assets/me.png" alt="My Photo" style="width:100%;height:auto;">
-            <p>
-                I am currently a Reader at the TATA Institute of Fundamental Research (TIFR), Mumbai.
-            </p>
+            
+            <div class="nopad-container-fluid">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#collapse1">
+                                    Contact me.
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse" style="background-color: lightcyan">
+                            <div class="panel-body">
+                                <p>
+                                    <span class="glyphicon glyphicon-send"> <strong>Email:</strong> </span>
+                                </p>
+                                <p>
+                                    sourav&lt;dot&gt;c&lt;at&gt;tifr&lt;dot&gt;res&lt;dot&gt;in
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-phone-alt"> <strong>Phone:</strong> </span>
+                                </p>
+                                <p>
+                                    &plus;91 22 2278 2351
+                                </p>
+                                <p>
+                                    <span class="fa fa-fax"> <strong>Fax:</strong> </span>
+                                </p>
+                                <p>
+                                    &plus;91 22 2280 4610/4611
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-envelope"> <strong>Address:</strong> </span>
+                                </p>
+                                <p>
+                                    A259, DAA, TIFR, Homi Bhaba Road, Navy Nagar, Colaba, 
+                                    Mumbai, Maharashtra, India
+                                </p>
+                                <p>Pin: 400005</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- <div class="well" style="background-color: ivory;padding:12px">
+                <p class="text-align:center">
+                    <ul>
+                        Contacts:
+                    </ul>
+                </p>
+                <div class="row">
+                    <div class="col-md-3" style="padding-left:1px; padding-right:1px">
+
+                    </div>
+                </div>
+            </div> -->
         </div>
     </div>
 
     
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-md-9" style="background-color: ivory;">
             <div class="container-fluid">
                 <p>
                     I am currently a Reader at the TATA Institute of Fundamental Research (TIFR), Mumbai.
                 </p>
                 <p>
-                    I have diverse research interests spanning from exoplanets to stars clusters to astrophysics 
-                    of gravitational waves. Most of my research interests come under the broad question: 'How 
-                    gravitational dynamical affects our universe.'
+                    I have diverse research interests spanning exoplanets, stars clusters, astrophysics 
+                    of gravitational waves, and compact-object binaries. Most of my research interests 
+                    come under the broad umbrella of the fundamental question: 'How gravitational dynamics 
+                    affects our universe.'
                 </p>
             </div>
         </div>
@@ -181,9 +259,9 @@
                 <img class="img-responsive" src="assets/me.png" alt="My Photo" style="width:100%;height:auto">
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="content">
+    <!-- <div class="content">
         <h3>Sticky Navigation Example</h3>
         <p>The navbar will stick to the top when you reach its scroll position.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
@@ -193,7 +271,7 @@
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    </div>
+    </div> -->
  <!--    <script>
         window.onscroll = function() {myFunction()};
             
